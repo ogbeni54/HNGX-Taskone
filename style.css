@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: brown;
+}
+.container > .head > h1{
+    text-align: center;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.container > .avatar > img{
+    width: 30%;
+   
+    
+}
+.container > .avatar{
+    width: 100%;
+    margin: 30px 0;
+   
+}
+.container > .avatar > .image{
+    width: 30%;
+    margin: 0px auto;
+}
+.container > .avatar > .image > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container > .major{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.a,.b,.c{
+    /* width: 50%; */
+    background-color: aqua;
+    color: brown;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 625px){
+    .a, .b, .c{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .a, .b, .c{
+        font-size: 20px;
+    }
+
+    .container > .avatar > .image{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 625px){
+    .a, .b, .c{
+        font-size: 15px;
+    }
+    .container > .avatar > .image{
+        width: 60%;
+    }
+    .container > .head > h1{
+        font-size: 35px;
+    }
+}
+
