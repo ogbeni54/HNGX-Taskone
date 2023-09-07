@@ -4,14 +4,14 @@
     padding: 0px;
 }
 body{
-    background-color: brown;
+    background-color: rgb(150, 204, 235);
 }
 .container{
     margin: auto;
 }
 .container > .head > h1{
     text-align: center;
-    color: aqua;
+    color: rgb(255, 0, 0);
     font-weight: bolder;
     font-size: 50px;
 
@@ -47,13 +47,13 @@ body{
 }
 .a,.b,.c{
     /* width: 50%; */
-    background-color: aqua;
-    color: brown;
+    background-color: transparent;
+    color: rgb(255, 0, 0);
     font-size: 30px;
 }
 a{
     text-decoration: none;
-    color: brown;
+    color: rgb(255, 0, 0);
     font-size: 20px;
 }
 
