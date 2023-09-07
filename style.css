@@ -6,6 +6,9 @@
 body{
     background-color: brown;
 }
+.container{
+    margin: auto;
+}
 .container > .head > h1{
     text-align: center;
     color: aqua;
