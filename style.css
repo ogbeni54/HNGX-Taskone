@@ -74,9 +74,12 @@ a{
 
 }
 
-@media screen and (max-width: 625px){
+@media screen and (max-width: 325px){
     .a, .b, .c{
         font-size: 15px;
+    }
+    .container{
+        margin: auto;
     }
     .container > .avatar > .image{
         width: 60%;
@@ -84,5 +87,6 @@ a{
     .container > .head > h1{
         font-size: 35px;
     }
+
 }
 
